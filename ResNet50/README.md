@@ -1,10 +1,12 @@
 # Estimación del peso del cuy utilizando ResNet50
 
+Se muestra una breve descripción de los códigos implementados para el proyecto en Colab
+
 -> Data_Augmentation : 
-   Codigo para realizar un aumento de las imagenes realizando rotaciones y aplicando un efecto blur
+   Código para realizar un aumento de las imagenes realizando rotaciones y aplicando un efecto blur
 
 -> ResNet50_Estimacion_Cuyes : 
-   Codigos para realizar transfer learning de la arquitectura ResNet50. Se modifica el modelo para regresión.
+   Códigos para realizar transfer learning de la arquitectura ResNet50. Se modifica el modelo para regresión.
 
    _1 : Primer resultado
        * No aplicamos Data Augmentation al dataset
