@@ -19,16 +19,15 @@ Se muestra una breve descripción de los códigos implementados para el proyecto
        * Resultados: Los mejores resultados durante el entrenamiento se encuentran en la carpeta "best.pt"
 ## YOLO Detect
   Utilizando GroundingDino para generar los cuadros delimitadores, se obtuvo el número de píxeles contenido dentro de este BoundingBox, en donde se filtró (considerando como referente 1.1 veces el valor de la mediana), obteniendo de esta forma un determinado número de píxeles para cada cuy, los cuales se dividieron entre su peso y se obtuvo un factor, al cual se le aplicó la mediana, y se obtuvo un factor general de 0.21215699704044025 gramos/pixeles.
-  Cabe mencionar que inicialmente se realizaron los filtros aplicando la media aritmética y la moda estadística, en donde se obtuvo un factor de 0.16315519540868295, esto se encuentra comentado dentro del código de PDSEI_Etiquetado_v1 y se muestra en PDSEI_Etiquetado_v2
+  Cabe mencionar que inicialmente se realizaron los filtros aplicando la media aritmética y la moda estadística, en donde se obtuvo un factor de 0.16315519540868295.
   ### Código:
-      PDSEI_Etiquetado_v1
       PDSEI_Etiquetado_v2
   ### Resultados:
       En "resultados1.txt" se muestra tanto el id del cuy como el peso real, peso estimado y el RMSE de cada id considerando la mediana.
       En "resultados1_Media_Moda.txt" se muestra tanto el id del cuy como el peso real, peso estimado y el RMSE de cada id considerando la moda.
   ## YOLO Segment
   Utilizando Supervision y los cuadros delimitadores, se obtuvo el número de píxeles contenido dentro de la máscara de segmentación, en donde se filtró (considerando como referente 1.1 veces el valor de la mediana), obteniendo de esta forma un determinado número de píxeles para cada cuy, los cuales se dividieron entre su peso y se obtuvo un factor, al cual se le aplicó la mediana, y se obtuvo un factor general de 0.30078200402462574 gramos/pixeles.
-  Cabe mencionar que inicialmente se realizaron los filtros aplicando la media aritmética y la moda estadística, en donde se obtuvo un factor de 0.22083622891943683, esto se encuentra dentro del código de Segmentacion2
+  Cabe mencionar que inicialmente se realizaron los filtros aplicando la media aritmética y la moda estadística, en donde se obtuvo un factor de 0.22083622891943683, esto se encuentra dentro del código de Segmentacion2.
   ### Código:
       Segmentacion
       Segmentacion2
