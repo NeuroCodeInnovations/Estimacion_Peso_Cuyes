@@ -1,8 +1,8 @@
 # Estimacion_Peso_Cuyes
 
-Integrantes:
+Integrantes:  
 
-Diaz Purizaga, Luis Gianfranco
-Ortiz Salvador, Edinson Elias
+Diaz Purizaga, Luis Gianfranco  
+Ortiz Salvador, Edinson Elias  
 Vera Noriega, Brayan Stalin
 
